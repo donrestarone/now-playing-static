@@ -233,13 +233,112 @@ figure {
     }
     .site-logo {
       z-index: 300;
+      width: 8%;
 
     }
 
     .movie-overview {
-  text-align: center;
+  text-align: left;
   display: block;
   font-size: 2em;
 }
 
 }
+
+
+@media screen and (min-width: 992px) {
+    .site-nav {
+      background: white;
+      position: fixed;
+      float: none;
+      width: 10%;
+      height: 100%;
+    }
+
+    .movie {
+      width: 100%;
+      height: 20% ;
+      float: left;
+    }
+
+   /* .site-nav-item {
+      float: none; 
+      position: relative; 
+      top: 20%;
+      height: 72px;
+      width: 100%;
+    }*/
+
+    /*.site-nav-list {
+      text-align: center;
+      padding: 0px;
+      margin: 4px;
+      margin-top: 95px;
+
+    }*/
+
+    
+
+    /*main {
+      margin-left: 10%;
+
+    }*/
+
+   /* .site-logo {
+      z-index: 300;
+      width: 8%;
+
+    }*/
+    .movie-details {
+      padding: 1%;
+    }
+
+    .movie-overview {
+  text-align: left;
+  display: block;
+  font-size: 1.2em;
+}
+
+/*
+new code*/
+  .movie:nth-child(1n +2) {
+    width: 25%; 
+    height: 10%;
+  }
+
+  .movie-details:nth-child(1n +2) {
+    width: 100%;
+    height: 100%;
+    font-size: 20%;
+
+
+  }
+
+  .movie-details p {
+    display: none;
+
+  }
+
+  .movie-details {
+    margin-top: 50%;
+    height: 50%;
+  }
+
+ .movie-title {
+  /*margin-top: 45%;*/
+  margin-top: 0%; 
+  position: absolute;
+  top: 87%;
+  font-size: 7em;
+
+ }
+
+.movie-title-label {
+  position: absolute; 
+  top: 79%;
+  font-size: 3.7em;
+}
+ 
+
+}
+
